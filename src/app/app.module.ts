@@ -18,6 +18,7 @@ import {MatChipsModule} from '@angular/material/chips';
 import { ReactiveFormsModule } from '@angular/forms';
 import { EmployeeDashboardComponent } from './components/employee-dashboard/employee-dashboard.component';
 import { EmployeeDetailsComponent } from './components/employee-details/employee-details.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent, EmployeeRegistrationComponent, EmployeeDashboardComponent, EmployeeDetailsComponent],
@@ -35,7 +36,8 @@ import { EmployeeDetailsComponent } from './components/employee-details/employee
     MatIconModule,
     MatTableModule,
     MatChipsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],
